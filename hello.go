@@ -2,10 +2,12 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/andyzwa/stringutil"
 )
 
 func main() {
 	fmt.Println("Hello World")
-	fmt.Println("Second Line")
+	fmt.Println(stringutil.Reverse("Second Line"))
 
 }
